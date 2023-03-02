@@ -105,4 +105,8 @@ We will introduce how to use your own data augmentation function
 
 ## Contributing
 
->📋  Pick a licence and describe how to contribute to your code repository. 
+>📋  BasicISOS v1.0 is almost build by [wcyjerry](https://github.com/wcyjerry) 
+> (some codes are modified from [BasicSR](https://github.com/XPixelGroup/BasicSR)),
+> if you want to help us to maintain and improve it, you can email me at: wcyjerry@qq.com
+
+> Feel free to pull requests and issues.

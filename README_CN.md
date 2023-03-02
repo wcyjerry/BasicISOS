@@ -96,4 +96,8 @@ python test.py --opt ./test_options/ucf_test.yaml
 
 ## Contributing
 
->📋  Pick a licence and describe how to contribute to your code repository. 
+>📋  BasicISOS v1.0 几乎由我个人完全建立的 [wcyjerry](https://github.com/wcyjerry) 
+> (其中一些代码借鉴修改于 [BasicSR](https://github.com/XPixelGroup/BasicSR)),
+> 如果你想帮助我们进行框架的维护和改进，请联系我 wcyjerry@qq.com
+> 
+> Feel free to pull requests and issues.
