@@ -22,7 +22,7 @@ numpy >= 1.21.2 (maybe lower is ok)
 
 opencv >= 4.5.3 (maybe lower is ok)
 
-pytorch >= 1.8.1 (maybe >= 1.7.1 is also ok)
+pytorch >= 1.9.1 (maybe >= 1.8.1 is also ok)
 
 albumentations >= 0.5.2
 
@@ -55,7 +55,7 @@ etc.
 使用下面的命令进行训练:
 
 ```train
-python train.py --opt ./options/ucf_train_demo.yaml
+python train.py --opt ./options/ucf_train.yaml
 ```
 
 >📋 使用代码进行训练后，它会自动在./experiments目录下创建一个文件件，里面会保存这次实验的所有logs，损失值和评价指标的tensorboard曲线，
@@ -66,7 +66,7 @@ python train.py --opt ./options/ucf_train_demo.yaml
 使用下面的命令进行预测:
 
 ```eval
-python test.py --opt ./test_options/test_demo.yaml
+python test.py --opt ./test_options/ucf_test.yaml
 ```
 
 >📋  简单例子:
