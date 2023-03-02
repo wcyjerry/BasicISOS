@@ -23,7 +23,7 @@ numpy >= 1.21.2 (maybe lower is ok)
 
 opencv >= 4.5.3 (maybe lower is ok)
 
-pytorch >= 1.8.1 (maybe >= 1.7.1 is also ok)
+pytorch >= 1.9.1 (maybe >= 1.8.1 is also ok)
 
 albumentations >= 0.5.2
 
@@ -57,7 +57,7 @@ you can just download and unzip.
 To train the model, run this command:
 
 ```train
-python train.py --opt ./options/ucf_train_demo.yaml
+python train.py --opt ./options/ucf_train.yaml
 ```
 
 >📋 Once you run this train command it will automatically create a folder under ./experiments
@@ -69,7 +69,7 @@ python train.py --opt ./options/ucf_train_demo.yaml
 To evaluate pretrained model, run:
 
 ```eval
-python test.py --opt ./test_options/test_demo.yaml
+python test.py --opt ./test_options/ucf_test.yaml
 ```
 
 >📋  usage example:
