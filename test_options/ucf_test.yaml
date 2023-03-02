@@ -1,0 +1,25 @@
+exp:
+#  save_dir: /data/wcy/generate/data_road/seq2_pred_finetune
+  bs: 8
+  device: 7
+
+model:
+  net:
+    type: UCFNet
+    base_dim: 32
+    theta_0: 0.7
+    theta_1: 0
+    theta_2: 0.7
+    theta_r: 0
+    norm: bn
+    n_blocks: 7
+
+
+dataset:
+  test:
+    type: Dataset_test
+    data_root: /data/wcy/dataset/SIRST/test
+    img_sz: 512
+    get_name: True
+resume:
+  net_path: /data/wcy/BasicISOS/experiment/UCF_test/20230228_132154/models/net_best_mean.pth
