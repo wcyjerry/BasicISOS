@@ -16,7 +16,8 @@ Salient Again](https://arxiv.org/abs/2301.12093)
 It also can be applied to other binary segmentation task (including: medical segmentation
 , salient object detection) of course.
 
-
+## Train your own model
+Just follow custom_configs/custom_model.md, and you can easily do experiments with your own network. 
 
 ## Requirements
 numpy >= 1.21.2 (maybe lower is ok)
